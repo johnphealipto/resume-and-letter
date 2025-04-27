@@ -1,101 +1,136 @@
 /* eslint-disable react-refresh/only-export-components */
 import {
   EnvelopeIcon,
-  LinkIcon,
+  // LinkIcon,
   LocationIcon,
   PhoneIcon,
 } from "./assets/icons";
 
 export const CONTACTS = [
-  { detail: "(234) 814-172-6099", icon: PhoneIcon },
+  { detail: "(234) 816-583-6582", icon: PhoneIcon },
   {
-    detail: "johnadibe450@gmail.com",
-    // detail: "john.adibe.ebube@gmail.com",
+    detail: "vera.okongwuigwe@gmail.com",
     icon: EnvelopeIcon,
   },
+  // {
+  //   detail: "https://johnadibe.vercel.app",
+  //   icon: LinkIcon,
+  // },
   {
-    detail: "https://johnadibe.vercel.app",
-    icon: LinkIcon,
-  },
-  {
-    detail: "Lagos, Nigeria.",
+    detail: "Anambra, Nigeria.",
     icon: LocationIcon,
   },
 ];
 
-export const EDUCATIONS = [
+export const EXPERIENCES = [
   {
-    certificate: "B.Sc / Mathematics Education",
-    school: "University of Nigeria, Nsukka",
-    duration: "",
-    grade: "Second Class Honours (Upper Division)",
-    project: "",
-    // project:
-    //   "Accessing the usability of questioning skills in teaching and learning of Mathematics in senior secondary schools at Onitsha South L.G.A Anambra State.",
+    title: "HR and Safety Manager",
+    company: "Pinnatech Engineering Nigeria LTD",
+    location: "Anambra, Nigeria.",
+    start: "March 2020",
+    end: "present",
+    description: [
+      "HR Planning and workforce management, talent acquisition and recruitment.",
+      "Risk Assessment and Hazard Prevention.",
+      "Training and Safety Awareness.",
+      // "Asphalt production assistant supervisor and general supervision",
+    ],
   },
   // {
-  //   certificate: "West African Examinations Council (WAEC)",
-  //   school: "Tansi International College, Awka",
-  //   duration: "Jun 2013",
+  //   title: "Client Service Executive",
+  //   company: "AD-Tonic Int'l",
+  //   location: "Anambra, Nigeria.",
+  //   start: "2020",
+  //   end: "2023",
+  //   description: [
+  //     "Build and manage client relationships and identify opportunity for new contracts.",
+  //     "Ensure all client concerns and complaints are satisfactorily handled.",
+  //     "Maintain accurate and up-to-date records of all contacts with clients.",
+  //     "Providing product and service information.",
+  //     "Resolving product and service problems.",
+  //   ],
+  // },
+  {
+    title: "Trainee Engineer",
+    company: "Skyway Aviation Handling Company PLC",
+    location: "Lagos.",
+    start: "2018",
+    end: "2019",
+    description: [
+      "Field Engineer",
+      "Servicing and schedule maintance on aviation ground equipments.",
+    ],
+  },
+  {
+    title: "Trainee Engineer",
+    company: "Livy.O. Plastic Industry Limited",
+    location: "Onitsha, Anambra.",
+    start: "2016",
+    end: "2018",
+    description: ["Machine operator.", "Machine monitoring and servicing."],
+  },
+  // {
+  //   title: "Physic Teacher",
+  //   company: "Bendav Model School",
+  //   location: "Abuja",
+  //   start: "2011",
+  //   end: "2012",
+  //   description: [],
   // },
 ];
 
-export const EXPERIENCES = [
+export const EDUCATIONS = [
   {
-    title: "Frontend Developer",
-    company: "Product Studio Limited",
-    location: "Lagos, Nigeria (Remote).",
-    start: "Nov 2023",
-    end: "till date",
-    description: [
-      "Spearheading 3+ projects from conception to deployment, focusing on user-centric design and code reusability.",
-      // "Researched 3rd party libraries before usage to avoid technical debt, and refactoring codes to the best practices.",
-      "Working closely with a diverse and agile team members, sharing ideas that can lead to company's growth",
-    ],
+    certificate: "B.Eng / Mechanical and Production Engineering",
+    school: "Enugu State University of Science and Technology",
+    duration: "2012 - 2017",
+    location: "Enugu",
+    grade: "",
+    project: "",
   },
   {
-    title: "Software Developer",
-    company: "Clinify INC",
-    location: "Alberta, Canada (Remote).",
-    start: "Apr 2022",
-    end: "Sep 2023",
-    description: [
-      "Worked closely with the backend developers to integrate GraphQL APIs, ensuring seamless communication between the frontend and backend systems.",
-      "Collaborated with UI/UX design team members to improve existing applications and implement new feature developments.",
-    ],
+    certificate: "West African Senior School Certificate Examination (WASSCE)",
+    school: "Regina Pacis Model Secondary School, Anambra",
+    duration: "2005 - 2011",
+    location: "Onitsha, Anambra State",
+    grade: "",
+    project: "",
   },
   {
-    title: "Frontend Developer",
-    company: "Outcess LTD",
-    location: "Opebi, Lagos.",
-    start: "Sep 2020",
-    end: "May 2022",
-    description: [
-      "Developed new React components for the staff management web application, increasing the HR team's work efficiency.",
-      "Created a UI and UX-friendly web application to manage customer relationships and records, achieving over 80% customer satisfaction and improving contact agent's recovery rate.",
-    ],
+    certificate: "First School Leaving Certificate (FSLC)",
+    school: "Bethroot Model School, Anambra",
+    duration: "1999 - 2005",
+    location: "Onitsha, Anambra State",
+    grade: "",
+    project: "",
   },
 ];
 
 export const SKILLS = [
+  // "HSE 123",
+  "Attention to detail",
+  "Creative problem-solving",
+  "Logical thinking",
+  "Communication skills",
+  "Technical skills",
+  "Adaptability",
+  "Continuous learning",
+];
+
+export const CERTIFICATIONS = [
   {
-    label: "Languages",
-    list: ["TypeScript", "HTML/CSS", "Python"],
+    title: "Professional Engineer (R.Eng.)",
+    institute: "Council for the Regulation of Engineering in Nigeria (COREN)",
+    issued: "Jan 2025",
   },
   {
-    label: "Libraries",
-    list: [
-      "React.JS",
-      "Next.JS",
-      "Tailwind CSS",
-      "React Native",
-      "Redux",
-      "GraphQL",
-      "Jest/Vitest",
-    ],
+    title: "Human Resource Management (HRM)",
+    institute: "Onshore and Offshore Safety Institute",
+    issued: "Sep 2024",
   },
   {
-    label: "Tools",
-    list: ["VSCode", "Figma", "Android Studio", "Xcode", "Blender"],
+    title: "Safety 1, 2, 3",
+    institute: "Onshore and Offshore Safety Institute",
+    issued: "Nov 2024",
   },
 ];
