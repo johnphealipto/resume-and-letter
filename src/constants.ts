@@ -119,7 +119,7 @@ export const SKILLS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Professional Engineer (R.Eng.)",
+    title: "Registered Engineer (R.Eng.)",
     institute: "Council for the Regulation of Engineering in Nigeria (COREN)",
     issued: "Jan 2025",
   },

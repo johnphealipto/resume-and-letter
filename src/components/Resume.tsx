@@ -277,8 +277,7 @@ const RightView = () => (
                 {item.institute}
               </Text>
               <Text style={[styles.text, { fontSize: 9 }]}>
-                <Text style={{ fontWeight: "semibold" }}>Issued:</Text>{" "}
-                {item.issued}
+                Issued: {item.issued}
               </Text>
             </View>
           ))}
